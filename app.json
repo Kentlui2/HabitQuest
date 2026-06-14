@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "HabitQuest",
+    "slug": "habitQuest",
+    "userInterfaceStyle": "automatic",
+    "scheme": "habitQuest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow QuestLog to use Face ID to unlock your account."
+        }
+      ],
+      "expo-web-browser",
+      "expo-image"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1C1A2E"
+      },
+      "permissions": [
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT",
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
+      ],
+      "package": "com.anonymous.habitQuest"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
